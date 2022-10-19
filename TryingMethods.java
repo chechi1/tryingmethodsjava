@@ -6,8 +6,12 @@ public class TryingMethods { //This method is about tracking attendance in the w
         firstDynamicSwitch.weekDays();
 
         TryingMethods newIfStatement = new TryingMethods();
-        
         newIfStatement.ifStatement(10);
+
+       
+
+       
+
     }
     public void weekDays(){
         int n;
@@ -54,5 +58,18 @@ public class TryingMethods { //This method is about tracking attendance in the w
         System.out.println("Please confirm your attendance");
     }
     
+    }
+
+    public static void whileLoop() {
+        int a = 1000;
+        int sum = 0;
+        int i = 1;
+        while (i <= a){
+            sum = sum + i;
+            i++;
+            
+        }
+        System.out.println("Sum =" + sum);
+        
     }
 }
