@@ -1,7 +1,15 @@
 import java.util.Scanner;
 
-public class TryingMethods {
+public class TryingMethods { //This method is about tracking attendance in the workplace//
     public static void main(String[] args) {
+        TryingMethods firstDynamicSwitch = new TryingMethods();
+        firstDynamicSwitch.weekDays();
+
+        TryingMethods newIfStatement = new TryingMethods();
+        
+        newIfStatement.ifStatement(10);
+    }
+    public void weekDays(){
         int n;
         System.out.println("Input the code for the day");
         try (Scanner r = new Scanner(System.in)) {
@@ -27,10 +35,24 @@ public class TryingMethods {
         
             
         }
-
-        
-        
-        
     }
-   
+
+    public void ifStatement(int attendance){
+    int workedEveryday = 5;
+    int missedWork = 0;
+
+    if (attendance >= workedEveryday) {
+        System.out.println("Congratulations! Employee of the week");
+        
+    } else if (attendance == workedEveryday){
+        System.out.println("we appreciate your efforts");
+        
+    } else if (attendance <= missedWork){
+        System.out.println("Please see HR");
+        
+    } else {
+        System.out.println("Please confirm your attendance");
+    }
+    
+    }
 }
