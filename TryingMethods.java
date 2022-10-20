@@ -8,7 +8,11 @@ public class TryingMethods { //This method is about tracking attendance in the w
         TryingMethods newIfStatement = new TryingMethods();
         newIfStatement.ifStatement(10);
 
-       
+        System.out.println("Sum of numbers less than 1000");
+        whileLoop();
+
+    
+      
 
        
 
@@ -71,5 +75,16 @@ public class TryingMethods { //This method is about tracking attendance in the w
         }
         System.out.println("Sum =" + sum);
         
+        
+        
+    }
+    public static void forLoop() {
+        for (int even=12; even <= 103; even ++){
+
+            if (even % 2 ==0) {
+                System.out.println(even);
+                
+            }
+        }
     }
 }
