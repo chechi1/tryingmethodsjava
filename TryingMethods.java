@@ -11,6 +11,8 @@ public class TryingMethods { //This method is about tracking attendance in the w
         System.out.println("Sum of numbers less than 1000");
         whileLoop();
 
+        System.out.println("Even numbers between 12 and 103");
+        forLoop();
     
       
 
