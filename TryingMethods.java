@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TryingMethods { //This method is about tracking attendance in the workplace//
+public class TryingMethods { //This exercise is to test my knowledge of methods and loops//
     public static void main(String[] args) {
         TryingMethods firstDynamicSwitch = new TryingMethods();
         firstDynamicSwitch.weekDays();
